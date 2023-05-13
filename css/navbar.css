@@ -1,0 +1,123 @@
+.navbar{
+    background-color: #00732c;
+}
+.navbar-brand{
+    padding: 5px 20px;
+    background-color: white;
+    color: #00732c;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    letter-spacing: -1px;
+}
+.navbar-brand:hover{
+    color: #00732c;
+}
+.nav-item{
+    padding: 0 5px;
+}
+.nav-item .nav-link{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-item .nav-link:hover{
+    color: white;
+}
+.side-link i{
+    color: white;
+}
+.side-link{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.side-link:hover{
+    color: white;
+}
+.separator{
+    color: rgba(0, 0, 0, .1);
+    margin: 0 10px;
+}
+.dropdown-item{
+    font-size: 15px;
+}
+.join-link{
+    margin-left: 20px;
+}
+.join-link a{
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid forestgreen;
+    background-color: #003B73;
+    transition: 1s;
+}
+.join-link a:hover{
+    color: #fff;
+    border: 1px solid #003B73;
+    background-color: forestgreen;
+}
+/* footer */
+
+.footer-container{
+    width: 100%;
+    height: 200px;
+    background-color:#003B73;
+    margin-top: 10px;
+}
+.notification-container::-webkit-scrollbar{
+width: 5px;
+    background-color: rgba(0, 0, 0, .1);
+
+}
+.notification-container::-webkit-scrollbar-button{
+    background-color: forestgreen;
+    border-radius: 5px;
+}
+.notification-container{
+    overflow: auto;
+     border: 1px solid rgba(0, 0, 0, .1);
+    margin-top: -24px;
+    width: 300px;
+    height: calc(100vh - 60px);
+    background-color: #fff;
+    position: fixed;
+    width:345px;
+    z-index: 1;
+    padding: 20px;
+}
+.hide{
+    display: none;
+}
+.notif-content{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 5px;
+}
+.notif-prompt{
+    margin-bottom: 10px;
+}
+.unread{
+    background-color: rgba(0, 0, 0, .04);
+}
+.content{
+    font-size: 14px;
+    font-weight: 500;
+}
+.status-notif{
+    font-size: 13px;
+    font-weight: 500;
+}
+.notif-link{
+    text-decoration: none;
+}
+.no-notif{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+}

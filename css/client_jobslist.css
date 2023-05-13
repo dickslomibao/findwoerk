@@ -1,0 +1,167 @@
+.job-content {
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0 0;
+}
+
+.job-category {
+    font-size: 18px;
+    font-weight: 600;
+    color: forestgreen;
+}
+
+.job-detailed-container {
+    margin: 20px 0;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.header-content {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label {
+    margin: 0 0 5px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.desc {
+    font-size: 15px;
+}
+
+.skills {
+    font-size: 15px;
+}
+
+.budget {
+    font-size: 15px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 5px 20px;
+    width: fit-content;
+}
+
+.date {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.date-posted {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.status {
+    font-weight: 500;
+    font-size: 16px;
+}
+.level{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.proposal-content{
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.proposal-content:hover{
+    background-color: rgba(0, 0, 0, .03);
+}
+.jobs-link {
+    text-decoration: none;
+}
+
+.txt-prompt {
+    color: forestgreen;
+    margin-bottom: 20px;
+}
+
+.owner-avatar {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.proposal{
+ background-color: forestgreen;
+ font-size: 15px;
+ color: white;
+ font-weight: 500;
+ padding: 3px 20px;
+ border-radius: 5px;   
+}
+.job-basic-info {
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-info {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.owner-major{
+    font-size: 14px;
+    font-weight: 500;
+}
+.proposal-title{
+    margin: 20px 0;
+    padding: 15px 20px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+/* .proposal-title h5{
+    
+} */
+
+.other-info-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-price{
+    padding: 3px 20px;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 5px;
+}
+.p-duration{
+    font-size: 16px;
+}
+.p-title{
+    font-size: 18px;
+    color: forestgreen;
+}
+.job-link{
+    text-decoration: none ;
+}

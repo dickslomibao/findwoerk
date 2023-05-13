@@ -1,0 +1,86 @@
+.other-info-proposal {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.other-info-proposal a {
+    text-decoration: none;
+    padding: 4px 20px;
+    border: 1px solid #00732c;
+    font-weight: 500;
+    color: #00732c;
+    border-radius: 5px;
+    transition: 1s;
+}
+.other-info-proposal a:hover{
+    background-color: #00732c;
+    color: white;
+}
+.other-ref {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.btn-acceptproposal{
+    position: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    background-color: #00732c;
+    border:  1px solid #00732c;
+    height: fit-content;
+    transition: all 1s;
+    color: white;
+}
+.declined-proposal{
+    background-color: #00732c;
+    color: white;
+    border: 1px solid #00732c;
+}
+/* .declined-proposal:hover{
+    background-color: #00732c;
+    color: white;
+    border: 1px solid #00732c;
+} */
+
+.btn-proposal-bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+.btn-proposal-bottom button{
+    margin: 0;
+    width: fit-content;
+    padding: 7px 50px;
+}
+.date-created{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.avatar-freelancer{
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+}
+.proposal-name{
+    margin: 5px;
+}
+center h6{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.info{
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+background-color: #00732c;
+padding: 20px;
+color: #fff;
+margin-bottom: 20px;
+}

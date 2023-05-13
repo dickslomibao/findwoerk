@@ -1,0 +1,245 @@
+.job-content {
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: wh;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+}
+.job-content:hover{
+    background-color: rgba(34, 139, 34,.04);
+}
+.page-title {
+    margin-bottom: 20px;
+    color: forestgreen;
+    font-weight: 500;
+}
+
+.owner-avatar {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.job-basic-info {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.owner-name{
+    font-size: 16px;
+}
+.job-category{
+    font-size: 14px;
+    font-weight: 500;
+}
+.content-info{
+    display: flex;
+    align-items: center;
+}
+.time{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.job-title{
+    font-size: 18px;
+    color: forestgreen;
+}
+.job-desc{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.job-primary-info{
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+.job-others-info{
+    background-color: #ebedee;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.budjet,.due{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.job-link{
+    text-decoration: none;
+}
+.filter-title{
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: forestgreen;
+}
+.form-check-label{
+    font-size: 14px !important;
+    text-overflow: ellipsis;
+    width: 140px;
+    font-weight: 500;
+}
+.category-filter{
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 15px;
+    height: 200px;
+    overflow-x:hidden;
+    margin-bottom: 15px;
+    border-radius: 5px;
+} 
+
+.category-filter::-webkit-scrollbar{
+    background-color: rgba(0, 0, 0, .1);
+    width: 5px;
+    border-radius: 5px;
+}
+.category-filter::-webkit-scrollbar-button{
+    background-color: forestgreen;
+    width: 5px;
+    border-radius: 5px;
+}
+#side-filter{
+    position: fixed;
+    width:345px;
+    overflow-x: hidden;
+    height: calc(100vh - 100px);
+
+}
+#side-filter::-webkit-scrollbar{
+    display:none;
+}
+#nodata{
+    margin-top: calc(100vh - 60vh);
+    text-align: center;
+}
+.level-filter{
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 15px;
+    border-radius: 5px;
+}
+.filter-budget{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.filter-budget input{
+    margin-right: 10px;
+}
+.filter-budget *{
+    margin: 0;
+}
+.filter-budget-container{
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.required-label{
+    margin: 10px 0;
+    font-weight: 500;
+}
+.btn-addproposal{
+    background-color: #00732c;
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 20px;
+}
+.submit-proposal{
+    background-color: #00732c;
+    padding: 7px 50px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+.message,.message:hover{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+
+}
+.btn-message{
+    position: pointer;
+    padding: 7px 50px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    border:  1px solid #00732c;
+}
+.proposal-page{
+    margin: 20px;
+    text-align: left;
+    font-size: 18px;
+    color: forestgreen;
+}
+
+/* proposal-display */
+
+.proposal-content{
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.proposal-content hr{
+    margin: 20px 0;
+}
+.proposal-label{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.proposal-content pre{
+    font-size: 15px;
+    white-space: pre-wrap
+}
+.proposal-content .desc-container{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+}
+.proposal-content .duration{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.proposal-content .price{
+    font-weight: 500;
+    font-size: 17px;
+    padding: 3px 20px;
+    color: white;
+    width: fit-content;
+    background-color: #00732c;
+    border-radius: 10px;
+}
+.proposal-constraints{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.declined-container{
+    border: 1px solid red;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.remarks-label{
+    font-weight: 500;
+}
+.remarks-content{
+    font-weight: 500;
+    font-size: 16px;
+}
